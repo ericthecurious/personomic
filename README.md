@@ -1,2 +1,2 @@
 # personomic
-Applying multiomics to an individual person through the use of personalized bioinformatics
+A platform for individualized bioinformatics
