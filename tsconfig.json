@@ -8,6 +8,7 @@
 			"DOM",
 			"ES2022"
 		],
+		"jsx": "react",
 		"declaration": true,
 		"noImplicitAny": true,
 		"allowJs": true,
@@ -28,9 +29,12 @@
 		}
 	},
 	"include": [
-		"./src/*.ts",
-		"./src/**/*.ts",
-		"./src/.spruce/**/*"
+  		"./src/*.ts",
+  		"./src/**/*.ts",
+  		"./src/*.tsx",
+ 		"./src/**/*.tsx",
+  		"./src/.spruce/**/*",
+  		"src/index.tsx"
 	],
 	"exclude": [
 		"build",
