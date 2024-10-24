@@ -1,5 +1,5 @@
 import AbstractSpruceTest, { test, assert } from '@sprucelabs/test-utils'
-import SymptomLoggerImpl, { SymptomLogger } from '../../SymptomLogger'
+import SymptomLoggerImpl, { SymptomLogger } from '../SymptomLogger'
 
 export default class SymptomLoggerTest extends AbstractSpruceTest {
     private static instance: SymptomLogger
